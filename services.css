@@ -1,0 +1,95 @@
+.services{
+    background-color: gray;
+}
+.services>h1{
+    text-align: center;
+    border: 2px solid blue;
+    background-image: url("https://old.unb.com.bd/media/imgAll/August2017/BG/ftuf-201801140920.jpg");
+}
+.services>p{
+    color: white;
+    font-size: 20px;
+}
+.services>h2{
+    color: darkblue;
+    font-size: 30px;
+}
+.services>h3{
+    color: indigo;
+}
+.services>h4{
+    color: purple;
+    font-size: 30px;
+}
+.services>h5{
+    color: maroon;
+    font-size: 35px;
+    text-align: left;
+}
+.services>table,tr,th,td{
+    border: 2px solid yellow;
+    border-collapse: collapse;
+}
+.services>th,td{
+    padding: 15px;
+}
+.services>table{
+    border-spacing: 4px;
+}
+.container{
+    padding: 10px;
+}
+input[type-text].input[type-password]:focus{
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+outline: none;
+}
+hr{
+    border: none;
+    margin-bottom: 27px;
+}
+.registerbtn{
+    padding: 18px 22px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    border: none;
+    font-size: 20px;
+}
+.registerbtn:hover{
+    opacity: 1;
+}
+a{
+    color: darkslateblue;
+}
+.login{
+    text-align:left;
+}
+div#search{
+    text-align: center;
+}
+div#search>h7{
+    font-size: 25px;
+    color: blue;
+}
+.row{
+    background-color: brown;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 20%;
+    padding: 3px;
+}
+#search>form{
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+}
+
+
