@@ -1,18 +1,16 @@
-.body {
-  background-image: burlywood;
+h1 {
+    color: black;
 }
-.h1 {
-  color: black;
+
+p {
+    color: black;
 }
-.h2 {
-  color: black;
+h2 {
+    color: darkslategray;
 }
-.h3{
-  color: black;
+body {
+    background-color:lightgrey;
 }
-h4 {
-  color: black;
-}
-.h5 {
-  color: black;
+h {
+    color: dodgerblue;
 }
