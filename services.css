@@ -1,0 +1,191 @@
+body {
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+}
+.services {
+    margin-left: 55px;
+}
+ 
+ header{
+    background-color: #FCD116;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+  }
+
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    float: none;;
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+    text-shadow: 2px 2px 5px grey;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
+  
+.services{
+    background-color: white;
+}
+.services>h1{
+    text-align: center;
+    border: 2px;
+    color: #FCD116;
+    background-image: url("https://old.unb.com.bd/media/imgAll/August2017/BG/ftuf-201801140920.jpg");
+}
+.services>p{
+    color: black;
+    font-size: 20px;
+}
+.services>h2{
+    color: #FCD116;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.services>h3{
+    color: indigo;
+}
+.services>h4{
+    color: #FCD116;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.services>h5{
+    color: #35424a;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 50px;
+    text-decoration: underline;
+}
+.services>table,tr,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-left: 80px;
+}
+.services>th,td{
+    padding: 15px;
+}
+.services>table{
+    border-spacing: 4px;
+}
+.container{
+    padding: 10px;
+}
+input[type-text].input[type-password]:focus{
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+outline: none;
+}
+hr{
+    border: none;
+    margin-bottom: 27px;
+}
+.registerbtn{
+    padding: 18px 22px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    border: none;
+    font-size: 20px;
+}
+.registerbtn:hover{
+    opacity: 1;
+}
+a{
+    color: darkslateblue;
+}
+.login{
+    text-align:left;
+}
+div#search{
+    text-align: center;
+}
+div#search>h7{
+    font-size: 25px;
+    color: blue;
+}
+.row{
+    background-color: brown;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 20%;
+    padding: 3px;
+}
+#search>form{
+    width: 400px;
+    margin: auto;
+    font-size: 15px;
+}
+input[type="submit"] {
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #f44336;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #ff5722;
+    transition: 0.2s ease;
+  }
+  input[type="text"] {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+  }
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color: black;
+    background-color: #FCD116;
+    text-align: center;
+  }
+
+
