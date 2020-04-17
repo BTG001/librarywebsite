@@ -7,6 +7,24 @@
         <link rel="stylesheet" type="text/css" href="services.css">
     </head>
     <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">ABC</span>LIBRARY</h1>
+                </div>
+                    <div>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="login.html">Log In</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li class="current"><a href="services.html">Services</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+            </div>
+            </header>
         <div class="services">
             <h1><img src="https://www.hamburglibrary.org/ImagesResponsive/Services.jpg")></h1>
             <h2>1.Lending Services.</h2>
@@ -52,45 +70,13 @@
             <p>We offer printing services at an affordable price of between ksh.1 and ksh.3 depending on your work volume.</p>
 
             <h2>3.E-library.</h2>
-            <p>Since we are  digitally oriented,we also offer information services online.</p>
-            <h5>Register Here to Access</h5>
-            <form action="submitted">
-                <div class="container>
-                    <p>Please fill in this form to create an E-library account</p>
-                    <hr>
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" required>
-
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter password" name="psw" required>
-                    <hr>
-
-                    <p>By creating an account you agree to our terms and conditions.<a href='#'>Terms & Privacy</a>.</p>
-                    <button type="submitt" class="registerbtn">Register</button>
-                </form>
-                </div>
-            </div>
-                <p>Already have an account?</p>
-                    <form action="submitted" method="post">
-                        <div class="container">
-                            <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
-
-                            <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
-
-                            <button type="submit">Login</button>
-                            <label>
-                                <input type="checkbox" checked="checked" name="remember">Remember me
-                            </label>
-                        </div>
-                    </form>
-                </div>
+            <p>Since we are  digitally oriented,we also offer information services online. To use this service you must have an existing account and you must be logged in.</p>
+            
         <div id="search">
-            <h7>Search Books</h7>
+            <h2><strong>Search Books</strong></h2>
             <p>By Title,Author,Subject,ISBN,Publisher.</p>
             <form>
-                <input type="text" name="text" class="search" placeholder="Search....">
+                <input type="text" name="text" class="search" placeholder="Title....">
                 <input type="submit" name="submit" class="submit" value="Search">
             </form>
         </div>
@@ -108,5 +94,8 @@
                 <img src="https://qph.fs.quoracdn.net/main-qimg-250152f38c3dde3cccee26089321ca06">
             </div>
         </div>
-    </body>
+        <footer>
+            <p>ABC LIBRARY, copyright &copy; 2020</p>
+        </footer>
+</body>
 </html>
